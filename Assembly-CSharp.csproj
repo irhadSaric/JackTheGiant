@@ -61,10 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Background Scripts\BGScaler.cs" />
+    <Compile Include="Assets\Scripts\Background Scripts\Collectors\BGCollector.cs" />
+    <Compile Include="Assets\Scripts\Background Scripts\Collectors\BGSpawner.cs" />
     <Compile Include="Assets\Scripts\Camera Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Cloud Collectors Scripts\CloudCollector.cs" />
     <Compile Include="Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerBounds.cs" />
     <None Include="Assets\Font\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/User/Desktop/Jack The Giant/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
