@@ -126,5 +126,54 @@ public class CloudSpawner : MonoBehaviour
         temp.y += 1f;
         player.transform.position = temp;
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D target)
+    {
+        if(target.tag == "Cloud" || target.tag == "Deadly")
+        {
+            if(target.transform.position.y == lastCloudPositionY)
+            {
+                Shuffle(clouds);
+                Shuffle(collectables);
+
+                Vector3 temp = target.transform.position;
+
+                for(int i = 0; i < clouds.Length; i++)
+                {
+                    if (!clouds[i].activeInHierarchy)
+                    {
+                        if (controlX == 0)
+                        {
+                            temp.x = Random.Range(0f, maxX);
+                            controlX = 1;
+                        }
+                        else if (controlX == 1)
+                        {
+                            temp.x = Random.Range(0f, minX);
+                            controlX = 2;
+                        }
+                        else if (controlX == 2)
+                        {
+                            temp.x = Random.Range(1f, maxX);
+                            controlX = 3;
+                        }
+                        else if (controlX == 3)
+                        {
+                            temp.x = Random.Range(-1f, minX);
+                            controlX = 0;
+                        }
+
+                        temp.y -= distanceBetweenClouds;
+
+                        lastCloudPositionY = temp.y;
+
+                        clouds[i].transform.position = temp;
+                        clouds[i].SetActive(true);
+                    }
+                }
+                
+            }
+        }
+    }
+
 }
