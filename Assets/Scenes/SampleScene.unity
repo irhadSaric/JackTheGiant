@@ -281,7 +281,7 @@ PrefabInstance:
     - target: {fileID: 211831180841775255, guid: 0a1160e240ea2bb439ae2f4006630327,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 211831180841775255, guid: 0a1160e240ea2bb439ae2f4006630327,
         type: 3}
@@ -356,7 +356,7 @@ PrefabInstance:
     - target: {fileID: 5561063835151048187, guid: 610984188c19a1042ad0af354156503f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5561063835151048187, guid: 610984188c19a1042ad0af354156503f,
         type: 3}
@@ -550,7 +550,7 @@ PrefabInstance:
     - target: {fileID: 5561063835151048187, guid: 610984188c19a1042ad0af354156503f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5561063835151048187, guid: 610984188c19a1042ad0af354156503f,
         type: 3}
@@ -586,6 +586,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -601,6 +602,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55b87cdcf59be7439b161dd17d238db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveCamera: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -978,7 +992,7 @@ PrefabInstance:
     - target: {fileID: 6747147816762359867, guid: 79b4cd3d5c9f2ba42aaf15db2ce6d51c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6747147816762359867, guid: 79b4cd3d5c9f2ba42aaf15db2ce6d51c,
         type: 3}
@@ -1053,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: 6747147816762359867, guid: 79b4cd3d5c9f2ba42aaf15db2ce6d51c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6747147816762359867, guid: 79b4cd3d5c9f2ba42aaf15db2ce6d51c,
         type: 3}
@@ -1088,6 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143546683}
   - component: {fileID: 1143546684}
+  - component: {fileID: 1143546686}
   - component: {fileID: 1143546685}
   m_Layer: 0
   m_Name: Cloud Collector
@@ -1148,6 +1163,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9026b0356811b049831171ab7100496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1143546686
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143546682}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1653062578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,6 +1194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653062579}
   - component: {fileID: 1653062580}
+  - component: {fileID: 1653062582}
   - component: {fileID: 1653062581}
   m_Layer: 0
   m_Name: Cloud Spawner
@@ -1228,6 +1265,27 @@ MonoBehaviour:
   - {fileID: 285040701}
   - {fileID: 254965474}
   collectables: []
+--- !u!50 &1653062582
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653062578}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1942252704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,7 +1371,7 @@ PrefabInstance:
     - target: {fileID: 211831180841775255, guid: 0a1160e240ea2bb439ae2f4006630327,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 211831180841775255, guid: 0a1160e240ea2bb439ae2f4006630327,
         type: 3}
@@ -1507,7 +1565,7 @@ PrefabInstance:
     - target: {fileID: 676202778854518637, guid: 788e8ade37043cb47a5bd34cbca67482,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 676202778854518637, guid: 788e8ade37043cb47a5bd34cbca67482,
         type: 3}
@@ -1667,7 +1725,7 @@ PrefabInstance:
     - target: {fileID: 8254608345690697272, guid: 3ca46e7b25d41744ca562943acbe16d4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8254608345690697272, guid: 3ca46e7b25d41744ca562943acbe16d4,
         type: 3}

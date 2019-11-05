@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CloudCollector : MonoBehaviour
 {
-    void OnTriggerEnter(Collider target)
+    void OnTriggerEnter2D(Collider2D target)
     {
         if(target.tag == "Cloud" || target.tag == "Deadly")
         {
