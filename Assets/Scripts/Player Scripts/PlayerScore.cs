@@ -69,21 +69,24 @@ public class PlayerScore : MonoBehaviour
             target.gameObject.SetActive(false);
         }
 
-        if(target.tag == "Bounds")
+        if(target.tag == "Bounds" || target.tag == "Deadly")
         {
             cameraScript.moveCamera = false;
             countScore = false;
+
+            GameplayController.instance.GameOverShowPanel(scoreCount, coinCount);
+
             transform.position = new Vector3(500, 500, 0);
             lifeCount--;
         }
 
-        if(target.tag == "Deadly")
+        /*if(target.tag == "Deadly")
         {
             cameraScript.moveCamera = false;
             countScore = false;
             transform.position = new Vector3(500, 500, 0);
             lifeCount--;
-        }
+        }*/
 
     }
 }
