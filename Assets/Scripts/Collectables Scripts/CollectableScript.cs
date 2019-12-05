@@ -6,9 +6,9 @@ public class CollectableScript : MonoBehaviour
 {
     void OnEnable()
     {
-        Invoke("DestroyCollectable", 6f);
-        // call function DestroyCollectable after 6 seconds
-        // if we do not collect coin then deactivate it after 6 seconds
+        Invoke("DestroyCollectable", 8f);
+        // call function DestroyCollectable after 8 seconds
+        // if we do not collect coin then deactivate it after 8 seconds
     }
 
     void DestroyCollectable()

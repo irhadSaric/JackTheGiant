@@ -43,6 +43,7 @@ public class PlayerScore : MonoBehaviour
                 scoreCount++;
             }
             previusPosition = transform.position;
+            GameplayController.instance.setScore(scoreCount);
         }
     }
 
@@ -52,6 +53,8 @@ public class PlayerScore : MonoBehaviour
         {
             coinCount++;
             scoreCount += 200;
+            GameplayController.instance.setCoinScore(coinCount);
+            GameplayController.instance.setScore(scoreCount);
             AudioSource.PlayClipAtPoint(coinClip, transform.position);
             target.gameObject.SetActive(false);
         }
@@ -60,6 +63,8 @@ public class PlayerScore : MonoBehaviour
         {
             lifeCount++;
             scoreCount += 300;
+            GameplayController.instance.setScore(scoreCount);
+            GameplayController.instance.setLifeScore(lifeCount);
             AudioSource.PlayClipAtPoint(lifeClip, transform.position);
             target.gameObject.SetActive(false);
         }
