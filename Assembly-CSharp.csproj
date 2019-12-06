@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\BGScaler.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\Collectors\BGCollector.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\Collectors\BGSpawner.cs" />
