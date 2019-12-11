@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 681, y: 498}
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 867
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 303
     height: 442
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -173,7 +173,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 731
-  m_MinSize: {x: 404, y: 498}
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 868
+  controlID: 106
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1225
     height: 442
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 869
+  controlID: 107
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,8 +302,8 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -390,7 +390,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -469,8 +469,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
+      - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+        label: shadercompiler-UnityShaderCompiler.exe3.log
         level: 1
         isFolder: 0
         isContainer: 0
@@ -481,9 +481,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe3.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -507,26 +507,1067 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-12-05T21:16:48.992+01:00
+      updatedTimeString: 2019-12-08T20:22:10.642+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-12-05T21:54:22.448+01:00
+      updatedTimeString: 2019-12-08T20:27:29.349+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2019-12-05T21:54:05.082+01:00
+      updatedTimeString: 2019-12-08T20:22:14.704+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 40c9ef2a25c28729841addf7c4c1086263893317
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: game manager added
+      description: 
+      timeString: 2019-12-07T01:39:45.000+01:00
+      commitTimeString: 2019-12-07T01:39:45.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\MainMenu.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\MainMenu.unity
+        projectPath: Assets\Scenes\MainMenu.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\GameplayController.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+        projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\MainMenuController.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MainMenuController.cs
+        projectPath: Assets\Scripts\Game Controllers\MainMenuController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\MyGameManager.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MyGameManager.cs
+        projectPath: Assets\Scripts\Game Controllers\MyGameManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+        projectPath: Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+        projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 67859c78e69c5a4758eee7fbded5e0409c03eebc
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: zez3
+      description: 
+      timeString: 2019-12-07T00:21:24.000+01:00
+      commitTimeString: 2019-12-07T00:21:24.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs
+        projectPath: Assets\GameManager.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs.meta
+        projectPath: Assets\GameManager.cs.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 4028d13636499e620972745fd8dbf554105dd550
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: zez
+      description: 
+      timeString: 2019-12-07T00:18:25.000+01:00
+      commitTimeString: 2019-12-07T00:18:25.000+01:00
+      changes:
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 563115993910a71a447b60eaf2fcf701d604635e
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: zez
+      description: 
+      timeString: 2019-12-07T00:13:20.000+01:00
+      commitTimeString: 2019-12-07T00:13:20.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs
+        projectPath: Assets\GameManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs.meta
+        projectPath: Assets\GameManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\EditorUserBuildSettings.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\EditorUserBuildSettings.asset
+        projectPath: Library\EditorUserBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\expandedItems
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 13ab1e3894b4d88e0f752338dcfbca0f72b01a21
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: gameover panel added, fixed bugs with couds
+      description: 
+      timeString: 2019-12-06T00:10:02.000+01:00
+      commitTimeString: 2019-12-06T00:10:02.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cloud Prefabs\Cloud 1.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+          1.prefab
+        projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 1.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cloud Prefabs\Cloud 2.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+          2.prefab
+        projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 2.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cloud Prefabs\Cloud 3.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+          3.prefab
+        projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 3.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Dark
+          Cloud.prefab
+        projectPath: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\GameplayController.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+        projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+        projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Jack The Giant.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Jack The Giant.csproj
+        projectPath: Jack The Giant.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\EditorUserBuildSettings.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\EditorUserBuildSettings.asset
+        projectPath: Library\EditorUserBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\LastBuild.buildreport
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastBuild.buildreport
+        projectPath: Library\LastBuild.buildreport
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+        projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+        projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+        projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\globalgamemanagers
+        projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+        projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\level0
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\level0
+        projectPath: Library\PlayerDataCache\Android\Data\level0
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+        projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+        projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+        projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+        projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\61\610984188c19a1042ad0af354156503f
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\61\610984188c19a1042ad0af354156503f
+        projectPath: Library\metadata\61\610984188c19a1042ad0af354156503f
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\61\610984188c19a1042ad0af354156503f.info
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\61\610984188c19a1042ad0af354156503f.info
+        projectPath: Library\metadata\61\610984188c19a1042ad0af354156503f.info
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+        projectPath: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+        projectPath: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+        projectPath: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+        projectPath: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+        projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+        projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe1.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe2.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe3.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Unity.Analytics.DataPrivacy.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.Analytics.DataPrivacy.csproj
+        projectPath: Unity.Analytics.DataPrivacy.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Unity.CollabProxy.Editor.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.CollabProxy.Editor.csproj
+        projectPath: Unity.CollabProxy.Editor.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Unity.PackageManagerUI.Editor.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.PackageManagerUI.Editor.csproj
+        projectPath: Unity.PackageManagerUI.Editor.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Unity.TextMeshPro.Editor.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.TextMeshPro.Editor.csproj
+        projectPath: Unity.TextMeshPro.Editor.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Unity.TextMeshPro.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.TextMeshPro.csproj
+        projectPath: Unity.TextMeshPro.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: e4b8028784098cbbe425d982177a5489a2554581
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: Score counter
+      description: 
+      timeString: 2019-12-05T21:58:32.000+01:00
+      commitTimeString: 2019-12-05T21:58:32.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+          Scripts\CollectableScript.cs
+        projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\GameplayController.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+        projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Game Controllers\GameplayController.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs.meta
+        projectPath: Assets\Scripts\Game Controllers\GameplayController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+        projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\expandedItems
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 7738a3ec273a42c312e76d270992d58133230761
+      mergeA: 
+      mergeB: 
+      authorName: Irho
+      authorEmail: irhad.saric@hotmail.com
+      commitEmail: irhad.saric@hotmail.com
+      commitName: Irho
+      summary: Collectables added
+      description: 
+      timeString: 2019-12-05T21:16:14.000+01:00
+      commitTimeString: 2019-12-05T21:16:14.000+01:00
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp-Editor-firstpass.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp-Editor-firstpass.csproj
+        projectPath: Assembly-CSharp-Editor-firstpass.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Dark
+          Cloud.prefab
+        projectPath: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Collectable Prefabs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+          Prefabs.meta
+        projectPath: Assets\Prefabs\Collectable Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Collectable Prefabs\Coin.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+          Prefabs\Coin.prefab
+        projectPath: Assets\Prefabs\Collectable Prefabs\Coin.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Collectable Prefabs\Coin.prefab.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+          Prefabs\Coin.prefab.meta
+        projectPath: Assets\Prefabs\Collectable Prefabs\Coin.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Collectable Prefabs\Life.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+          Prefabs\Life.prefab
+        projectPath: Assets\Prefabs\Collectable Prefabs\Life.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Collectable Prefabs\Life.prefab.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+          Prefabs\Life.prefab.meta
+        projectPath: Assets\Prefabs\Collectable Prefabs\Life.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player Prefabs\Player.prefab
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Player Prefabs\Player.prefab
+        projectPath: Assets\Prefabs\Player Prefabs\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Cloud Collectors
+          Scripts\CloudSpawner.cs
+        projectPath: Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Collectables Scripts.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+          Scripts.meta
+        projectPath: Assets\Scripts\Collectables Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+          Scripts\CollectableScript.cs
+        projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+          Scripts\CollectableScript.cs.meta
+        projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+        projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+        projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\StateCache\Hierarchy\04cf40-mainStage.json
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\StateCache\Hierarchy\04cf40-mainStage.json
+        projectPath: Library\StateCache\Hierarchy\04cf40-mainStage.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\StateCache\SceneView\c0398b-mainStage.json
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\StateCache\SceneView\c0398b-mainStage.json
+        projectPath: Library\StateCache\SceneView\c0398b-mainStage.json
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+        projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+        projectPath: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+        projectPath: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+        projectPath: Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 4e32ab41053bbdcc3c1f4fb6fb0c425f68093cd0
       mergeA: 
       mergeB: 
@@ -32000,14 +33041,1055 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-12-07T01:52:25.450+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
-      scroll: {x: 0, y: 318}
+      scroll: {x: 0, y: 598}
       entries:
+      - commitID: 40c9ef2a25c28729841addf7c4c1086263893317
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: game manager added
+        description: 
+        timeString: 2019-12-07T01:39:45.000+01:00
+        commitTimeString: 2019-12-07T01:39:45.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\MainMenu.unity
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\MainMenu.unity
+          projectPath: Assets\Scenes\MainMenu.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\GameplayController.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+          projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\MainMenuController.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MainMenuController.cs
+          projectPath: Assets\Scripts\Game Controllers\MainMenuController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\MyGameManager.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MyGameManager.cs
+          projectPath: Assets\Scripts\Game Controllers\MyGameManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+          projectPath: Assets\Scripts\Game Controllers\MyGameManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+          projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 67859c78e69c5a4758eee7fbded5e0409c03eebc
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: zez3
+        description: 
+        timeString: 2019-12-07T00:21:24.000+01:00
+        commitTimeString: 2019-12-07T00:21:24.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\GameManager.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs
+          projectPath: Assets\GameManager.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\GameManager.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs.meta
+          projectPath: Assets\GameManager.cs.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 4028d13636499e620972745fd8dbf554105dd550
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: zez
+        description: 
+        timeString: 2019-12-07T00:18:25.000+01:00
+        commitTimeString: 2019-12-07T00:18:25.000+01:00
+        changes:
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 563115993910a71a447b60eaf2fcf701d604635e
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: zez
+        description: 
+        timeString: 2019-12-07T00:13:20.000+01:00
+        commitTimeString: 2019-12-07T00:13:20.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\GameManager.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs
+          projectPath: Assets\GameManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\GameManager.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs.meta
+          projectPath: Assets\GameManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\EditorUserBuildSettings.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\LastSceneManagerSetup.txt
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\expandedItems
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 13ab1e3894b4d88e0f752338dcfbca0f72b01a21
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: gameover panel added, fixed bugs with couds
+        description: 
+        timeString: 2019-12-06T00:10:02.000+01:00
+        commitTimeString: 2019-12-06T00:10:02.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cloud Prefabs\Cloud 1.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+            1.prefab
+          projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 1.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cloud Prefabs\Cloud 2.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+            2.prefab
+          projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 2.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cloud Prefabs\Cloud 3.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Cloud
+            3.prefab
+          projectPath: Assets\Prefabs\Cloud Prefabs\Cloud 3.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Dark
+            Cloud.prefab
+          projectPath: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\GameplayController.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+          projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+          projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Jack The Giant.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Jack The Giant.csproj
+          projectPath: Jack The Giant.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\EditorUserBuildSettings.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\LastBuild.buildreport
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastBuild.buildreport
+          projectPath: Library\LastBuild.buildreport
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+          projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+          projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+          projectPath: Library\PlayerDataCache\Android\Data\Managed\Unity.TextMeshPro.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\globalgamemanagers
+          projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+          projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\level0
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\level0
+          projectPath: Library\PlayerDataCache\Android\Data\level0
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+          projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+          projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+          projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\61\610984188c19a1042ad0af354156503f
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\61\610984188c19a1042ad0af354156503f
+          projectPath: Library\metadata\61\610984188c19a1042ad0af354156503f
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\61\610984188c19a1042ad0af354156503f.info
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\61\610984188c19a1042ad0af354156503f.info
+          projectPath: Library\metadata\61\610984188c19a1042ad0af354156503f.info
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+          projectPath: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+          projectPath: Library\metadata\78\788e8ade37043cb47a5bd34cbca67482.info
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+          projectPath: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+          projectPath: Library\metadata\79\79b4cd3d5c9f2ba42aaf15db2ce6d51c.info
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+          projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+          projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe1.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe2.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe3.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Unity.Analytics.DataPrivacy.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.Analytics.DataPrivacy.csproj
+          projectPath: Unity.Analytics.DataPrivacy.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Unity.CollabProxy.Editor.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.CollabProxy.Editor.csproj
+          projectPath: Unity.CollabProxy.Editor.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Unity.PackageManagerUI.Editor.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.PackageManagerUI.Editor.csproj
+          projectPath: Unity.PackageManagerUI.Editor.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Unity.TextMeshPro.Editor.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.TextMeshPro.Editor.csproj
+          projectPath: Unity.TextMeshPro.Editor.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Unity.TextMeshPro.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Unity.TextMeshPro.csproj
+          projectPath: Unity.TextMeshPro.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: e4b8028784098cbbe425d982177a5489a2554581
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: Score counter
+        description: 
+        timeString: 2019-12-05T21:58:32.000+01:00
+        commitTimeString: 2019-12-05T21:58:32.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+            Scripts\CollectableScript.cs
+          projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\GameplayController.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs
+          projectPath: Assets\Scripts\Game Controllers\GameplayController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Game Controllers\GameplayController.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Game Controllers\GameplayController.cs.meta
+          projectPath: Assets\Scripts\Game Controllers\GameplayController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+          projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\LastSceneManagerSetup.txt
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\expandedItems
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 7738a3ec273a42c312e76d270992d58133230761
+        mergeA: 
+        mergeB: 
+        authorName: Irho
+        authorEmail: irhad.saric@hotmail.com
+        commitEmail: irhad.saric@hotmail.com
+        commitName: Irho
+        summary: Collectables added
+        description: 
+        timeString: 2019-12-05T21:16:14.000+01:00
+        commitTimeString: 2019-12-05T21:16:14.000+01:00
+        changes:
+        - path: .vs\Jack The Giant\v15\.suo
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+          projectPath: .vs\Jack The Giant\v15\.suo
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp-Editor-firstpass.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp-Editor-firstpass.csproj
+          projectPath: Assembly-CSharp-Editor-firstpass.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Cloud Prefabs\Dark
+            Cloud.prefab
+          projectPath: Assets\Prefabs\Cloud Prefabs\Dark Cloud.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Collectable Prefabs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+            Prefabs.meta
+          projectPath: Assets\Prefabs\Collectable Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Collectable Prefabs\Coin.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+            Prefabs\Coin.prefab
+          projectPath: Assets\Prefabs\Collectable Prefabs\Coin.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Collectable Prefabs\Coin.prefab.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+            Prefabs\Coin.prefab.meta
+          projectPath: Assets\Prefabs\Collectable Prefabs\Coin.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Collectable Prefabs\Life.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+            Prefabs\Life.prefab
+          projectPath: Assets\Prefabs\Collectable Prefabs\Life.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Collectable Prefabs\Life.prefab.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Collectable
+            Prefabs\Life.prefab.meta
+          projectPath: Assets\Prefabs\Collectable Prefabs\Life.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player Prefabs\Player.prefab
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Prefabs\Player Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Cloud Collectors
+            Scripts\CloudSpawner.cs
+          projectPath: Assets\Scripts\Cloud Collectors Scripts\CloudSpawner.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Collectables Scripts.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+            Scripts.meta
+          projectPath: Assets\Scripts\Collectables Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+            Scripts\CollectableScript.cs
+          projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Collectables Scripts\CollectableScript.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Collectables
+            Scripts\CollectableScript.cs.meta
+          projectPath: Assets\Scripts\Collectables Scripts\CollectableScript.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player Scripts\PlayerScore.cs
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs
+          projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+          projectPath: Assets\Scripts\Player Scripts\PlayerScore.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\StateCache\Hierarchy\04cf40-mainStage.json
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\StateCache\Hierarchy\04cf40-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\04cf40-mainStage.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\StateCache\SceneView\c0398b-mainStage.json
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\StateCache\SceneView\c0398b-mainStage.json
+          projectPath: Library\StateCache\SceneView\c0398b-mainStage.json
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+          projectPath: Library\metadata\0a\0a1160e240ea2bb439ae2f4006630327.info
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+          projectPath: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+          projectPath: Library\metadata\3c\3ca46e7b25d41744ca562943acbe16d4.info
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+          projectPath: Library\metadata\60\60997688c7fbec94bb229d09e2c8c081
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\User\Desktop\Jack The Giant\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 4e32ab41053bbdcc3c1f4fb6fb0c425f68093cd0
         mergeA: 
         mergeB: 
@@ -63530,7 +65612,115 @@ MonoBehaviour:
       description: 
       timeString: 0001-01-01T00:00:00.000+00:00
       commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
+      changes:
+      - path: .vs\Jack The Giant\v15\.suo
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\.suo
+        projectPath: .vs\Jack The Giant\v15\.suo
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-shm
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        fullPath: C:\Users\User\Desktop\Jack The Giant\.vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\Jack The Giant\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs
+        projectPath: Assets\GameManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\GameManager.cs.meta
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\GameManager.cs.meta
+        projectPath: Assets\GameManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\EditorUserBuildSettings.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\EditorUserBuildSettings.asset
+        projectPath: Library\EditorUserBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\ScriptAssemblies\Assembly-CSharp.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\expandedItems
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\User\Desktop\Jack The Giant\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        fullPath: C:\Users\User\Desktop\Jack The Giant\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     treeChanges:
       assets:
         keys: []
@@ -63657,13 +65847,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-12-05T21:16:48.992+01:00
+    updatedTimeString: 2019-12-08T13:18:25.313+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-12-05T21:25:19.345+01:00
+    updatedTimeString: 2019-12-08T13:18:25.042+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-12-05T21:25:19.254+01:00
+    updatedTimeString: 2019-12-08T12:56:59.785+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -63683,8 +65873,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: irhadSaric
 --- !u!114 &13
@@ -63708,10 +65898,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 303.2
-    y: 73.6
-    width: 918
-    height: 422
+    x: 468
+    y: 181
+    width: 973
+    height: 501
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -63751,20 +65941,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Game Controllers
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/Game Controllers
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\User\Desktop\Jack The Giant
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 204}
-    m_SelectedIDs: 58280000
-    m_LastClickedID: 10328
-    m_ExpandedIDs: 00000000462700005a2700007a270000b2270000402800007629000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 42280000
+    m_LastClickedID: 10306
+    m_ExpandedIDs: 000000004a2700007e270000b62700004428000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -63792,7 +65982,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000462700005a2700007a270000b22700007629000000ca9a3b
+    m_ExpandedIDs: 000000004a2700007e270000b627000044280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -63819,22 +66009,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000a2a0000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameplayController
-      m_OriginalName: GameplayController
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 26962
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -63846,7 +66036,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 235
+  m_DirectoriesAreaWidth: 242
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63911,9 +66101,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b0300000
-      m_LastClickedID: 12464
-      m_ExpandedIDs: 8cf2ffffc6f7ffff22faffff202d00003a310000543100006a310000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 54f8fffff0f8ffff08f9ffff7cfaffff82faffff1efbffff22fbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -63929,14 +66119,14 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: bcbbbc4b3d1f74241a60b44b752448d6
+  m_WindowGUID: 5c92337676b8f7347af5afe7a6da8ab2
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63963,15 +66153,15 @@ MonoBehaviour:
     width: 918
     height: 422
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_WindowGUID: 0b710f880d163704abaea20c80938258
+  m_WindowGUID: f3ebdc10de273104d96fd3a037b4acbb
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.975704, y: -25.940294, z: -0.85625}
+    m_Target: {x: -0.37058297, y: -0.19036394, z: -0.04272005}
     speed: 2
-    m_Value: {x: 5.975704, y: -25.940294, z: -0.85625}
+    m_Value: {x: -0.37058297, y: -0.19036394, z: -0.04272005}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -64003,9 +66193,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 29.000946
+    m_Target: 14.299474
     speed: 2
-    m_Value: 29.000946
+    m_Value: 14.299474
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -64046,17 +66236,17 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 0a000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000001000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -192
-    m_HBaseRangeMax: 192
-    m_VBaseRangeMin: -320
-    m_VBaseRangeMax: 320
+    m_HBaseRangeMin: -240
+    m_HBaseRangeMax: 240
+    m_VBaseRangeMin: -400
+    m_VBaseRangeMax: 400
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -64076,23 +66266,23 @@ MonoBehaviour:
       y: 17
       width: 918
       height: 405
-    m_Scale: {x: 0.6328125, y: 0.6328125}
-    m_Translation: {x: 459, y: 202.5}
+    m_Scale: {x: 0.50625, y: 0.50625}
+    m_Translation: {x: 459, y: 202.49998}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -725.3333
-      y: -320
-      width: 1450.6666
-      height: 640
+      x: -906.6666
+      y: -399.99994
+      width: 1813.3333
+      height: 799.99994
     m_MinimalGUI: 1
-  m_defaultScale: 0.6328125
+  m_defaultScale: 0.50625
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1147.5, y: 527.5}
+  m_LastWindowPixelSize: {x: 918, y: 422}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000

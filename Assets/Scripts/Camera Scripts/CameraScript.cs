@@ -8,12 +8,30 @@ public class CameraScript : MonoBehaviour
     private float acceleration = 0.2f;
     private float maxSpeed = 3.2f;
 
+    private float easySpeed = 3.2f;
+    private float mediumSpeed = 3.8f;
+    private float hardSpeed = 5.2f;
+
     [HideInInspector]
     public bool moveCamera;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(GamePreferences.GetEasyDifficulty() == 1)
+        {
+            maxSpeed = easySpeed;
+        }
+        if (GamePreferences.GetMediumDifficulty() == 1)
+        {
+            maxSpeed = mediumSpeed;
+        }
+        if (GamePreferences.GetHardDifficulty() == 1)
+        {
+            maxSpeed = hardSpeed;
+            acceleration = 1f;
+        }
+
         moveCamera = true;    
     }
 
