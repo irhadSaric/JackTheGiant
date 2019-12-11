@@ -18,7 +18,7 @@ public class MainMenuController : MonoBehaviour
         Time.timeScale = 1f;
         CheckToPlayTheMusic();
     }
-
+    
     void CheckToPlayTheMusic()
     {
         if (GamePreferences.GetMusicState() == 1)

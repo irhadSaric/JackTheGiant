@@ -55,7 +55,10 @@ public class PlayerScore : MonoBehaviour
             scoreCount += 200;
             GameplayController.instance.setCoinScore(coinCount);
             GameplayController.instance.setScore(scoreCount);
-            AudioSource.PlayClipAtPoint(coinClip, transform.position);
+            if (GamePreferences.GetMusicState() == 1)
+            {
+                AudioSource.PlayClipAtPoint(coinClip, transform.position);
+            }
             target.gameObject.SetActive(false);
         }
 
@@ -65,7 +68,10 @@ public class PlayerScore : MonoBehaviour
             scoreCount += 300;
             GameplayController.instance.setScore(scoreCount);
             GameplayController.instance.setLifeScore(lifeCount);
-            AudioSource.PlayClipAtPoint(lifeClip, transform.position);
+            if(GamePreferences.GetMusicState() == 1)
+            {
+                AudioSource.PlayClipAtPoint(lifeClip, transform.position);
+            }
             target.gameObject.SetActive(false);
         }
 
